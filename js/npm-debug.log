@@ -1,0 +1,141 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'requirejs' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'requirejs', null ]
+5 verbose cache add name=undefined spec="requirejs" args=["requirejs",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'requirejs',
+6 verbose parsed url   path: 'requirejs',
+6 verbose parsed url   href: 'requirejs' }
+7 silly lockFile f2b16c35-requirejs requirejs
+8 verbose lock requirejs /home/sandhya/.npm/f2b16c35-requirejs.lock
+9 silly lockFile f2b16c35-requirejs requirejs
+10 silly lockFile f2b16c35-requirejs requirejs
+11 verbose addNamed [ 'requirejs', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile e9b02655-requirejs requirejs@
+14 verbose lock requirejs@ /home/sandhya/.npm/e9b02655-requirejs.lock
+15 silly addNameRange { name: 'requirejs', range: '*', hasData: false }
+16 verbose url raw requirejs
+17 verbose url resolving [ 'https://registry.npmjs.org/', './requirejs' ]
+18 verbose url resolved https://registry.npmjs.org/requirejs
+19 info trying registry request attempt 1 at 13:19:46
+20 verbose etag "BRAKXAXZ2JCATDQ72BV2I844N"
+21 http GET https://registry.npmjs.org/requirejs
+22 http 304 https://registry.npmjs.org/requirejs
+23 silly registry.get cb [ 304,
+23 silly registry.get   { date: 'Wed, 10 Dec 2014 07:46:07 GMT',
+23 silly registry.get     server: 'Apache',
+23 silly registry.get     via: '1.1 varnish',
+23 silly registry.get     'last-modified': 'Wed, 10 Dec 2014 07:46:07 GMT',
+23 silly registry.get     'cache-control': 'max-age=60',
+23 silly registry.get     etag: '"BRAKXAXZ2JCATDQ72BV2I844N"',
+23 silly registry.get     age: '31',
+23 silly registry.get     'x-served-by': 'cache-lax1422-LAX',
+23 silly registry.get     'x-cache': 'HIT',
+23 silly registry.get     'x-cache-hits': '1',
+23 silly registry.get     'x-timer': 'S1418197567.375287,VS0,VE0',
+23 silly registry.get     vary: 'Accept',
+23 silly registry.get     'content-length': '0',
+23 silly registry.get     'keep-alive': 'timeout=10, max=50',
+23 silly registry.get     connection: 'Keep-Alive' } ]
+24 verbose etag requirejs from cache
+25 silly addNameRange number 2 { name: 'requirejs', range: '*', hasData: true }
+26 silly addNameRange versions [ 'requirejs',
+26 silly addNameRange   [ '0.26.0',
+26 silly addNameRange     '0.27.0',
+26 silly addNameRange     '0.27.1',
+26 silly addNameRange     '1.0.0',
+26 silly addNameRange     '1.0.1',
+26 silly addNameRange     '1.0.2',
+26 silly addNameRange     '1.0.3',
+26 silly addNameRange     '1.0.4',
+26 silly addNameRange     '1.0.5',
+26 silly addNameRange     '1.0.6',
+26 silly addNameRange     '1.0.7',
+26 silly addNameRange     '1.0.8',
+26 silly addNameRange     '2.0.0',
+26 silly addNameRange     '2.0.1',
+26 silly addNameRange     '2.0.2',
+26 silly addNameRange     '2.0.3',
+26 silly addNameRange     '2.0.4',
+26 silly addNameRange     '2.0.5',
+26 silly addNameRange     '2.0.6',
+26 silly addNameRange     '2.1.0',
+26 silly addNameRange     '2.1.1',
+26 silly addNameRange     '2.1.2',
+26 silly addNameRange     '2.1.3',
+26 silly addNameRange     '2.1.4',
+26 silly addNameRange     '2.1.5',
+26 silly addNameRange     '2.1.6',
+26 silly addNameRange     '2.1.7',
+26 silly addNameRange     '2.1.8',
+26 silly addNameRange     '2.1.9',
+26 silly addNameRange     '2.1.10',
+26 silly addNameRange     '2.1.11',
+26 silly addNameRange     '2.1.12',
+26 silly addNameRange     '2.1.13',
+26 silly addNameRange     '2.1.14',
+26 silly addNameRange     '2.1.15' ] ]
+27 verbose addNamed [ 'requirejs', '2.1.15' ]
+28 verbose addNamed [ '2.1.15', '2.1.15' ]
+29 silly lockFile 87818c58-requirejs-2-1-15 requirejs@2.1.15
+30 verbose lock requirejs@2.1.15 /home/sandhya/.npm/87818c58-requirejs-2-1-15.lock
+31 silly lockFile 87818c58-requirejs-2-1-15 requirejs@2.1.15
+32 silly lockFile 87818c58-requirejs-2-1-15 requirejs@2.1.15
+33 silly lockFile e9b02655-requirejs requirejs@
+34 silly lockFile e9b02655-requirejs requirejs@
+35 silly resolved [ { name: 'requirejs',
+35 silly resolved     description: 'Node adapter for RequireJS, for loading AMD modules. Includes RequireJS optimizer',
+35 silly resolved     version: '2.1.15',
+35 silly resolved     homepage: 'http://github.com/jrburke/r.js',
+35 silly resolved     author:
+35 silly resolved      { name: 'James Burke',
+35 silly resolved        email: 'jrburke@gmail.com',
+35 silly resolved        url: 'http://github.com/jrburke' },
+35 silly resolved     licenses: [ [Object], [Object] ],
+35 silly resolved     repository: { type: 'git', url: 'https://github.com/jrburke/r.js.git' },
+35 silly resolved     main: './bin/r.js',
+35 silly resolved     bin: { 'r.js': './bin/r.js' },
+35 silly resolved     engines: { node: '>=0.4.0' },
+35 silly resolved     readme: '# requirejs\n\nRequireJS for use in Node. includes:\n\n* r.js: the RequireJS optimizer, and AMD runtime for use in Node.\n* require.js: The browser-based AMD loader.\n\nMore information at http://requirejs.org\n\n',
+35 silly resolved     readmeFilename: 'README.md',
+35 silly resolved     bugs: { url: 'https://github.com/jrburke/r.js/issues' },
+35 silly resolved     _id: 'requirejs@2.1.15',
+35 silly resolved     _from: 'requirejs@' } ]
+36 info install requirejs@2.1.15 into /usr/local/lib
+37 info installOne requirejs@2.1.15
+38 info /usr/local/lib/node_modules/requirejs unbuild
+39 info preuninstall requirejs@2.1.15
+40 info uninstall requirejs@2.1.15
+41 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild requirejs@2.1.15
+42 verbose /usr/local/bin,[object Object] binRoot
+43 info /usr/local/lib/node_modules/requirejs unbuild
+44 info preuninstall requirejs@2.1.15
+45 info uninstall requirejs@2.1.15
+46 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild requirejs@2.1.15
+47 verbose /usr/local/bin,[object Object] binRoot
+48 error error rolling back Error: EACCES, unlink '/usr/local/bin/r.js'
+48 error error rolling back  requirejs@2.1.15 { [Error: EACCES, unlink '/usr/local/bin/r.js'] errno: 3, code: 'EACCES', path: '/usr/local/bin/r.js' }
+49 error Error: EACCES, unlink '/usr/local/bin/r.js'
+49 error  { [Error: EACCES, unlink '/usr/local/bin/r.js'] errno: 3, code: 'EACCES', path: '/usr/local/bin/r.js' }
+50 error Please try running this command again as root/Administrator.
+51 error System Linux 3.13.0-24-generic
+52 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "requirejs"
+53 error cwd /home/sandhya/workspace/Backboneapp/js
+54 error node -v v0.10.25
+55 error npm -v 1.3.10
+56 error path /usr/local/bin/r.js
+57 error code EACCES
+58 error errno 3
+59 error stack Error: EACCES, unlink '/usr/local/bin/r.js'
+60 verbose exit [ 3, true ]
